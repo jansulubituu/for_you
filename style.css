@@ -21,6 +21,11 @@ body {
   padding: 50px 0px;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px; /* Kích thước font nhỏ hơn cho màn hình điện thoại */
+  }
+
 .night {
   position: fixed;
   left: 50%;
