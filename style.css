@@ -21,11 +21,7 @@ body {
   padding: 50px 0px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 12px; /* Kích thước font nhỏ hơn cho màn hình điện thoại */
-  }
-}
+
 .night {
   position: fixed;
   left: 50%;
@@ -39,6 +35,9 @@ body {
 .happy-woman-day {
   color: white;
   font-size: 50px;
+  @media only screen and (max-width: 600px) {
+      font-size: 12px; /* Kích thước font nhỏ hơn cho màn hình điện thoại */
+  }
   position: fixed;
   top: 10px;
 }
