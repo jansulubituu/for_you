@@ -25,7 +25,7 @@ body {
   body {
     font-size: 12px; /* Kích thước font nhỏ hơn cho màn hình điện thoại */
   }
-
+}
 .night {
   position: fixed;
   left: 50%;
